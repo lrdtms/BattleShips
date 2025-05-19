@@ -1,0 +1,15 @@
+C:\Users\Adim\Documents\BattleShips\BattleShips\BattleShipGameSln\BattleShipGame\bin\Debug\net9.0\BattleShipGame.exe
+C:\Users\Adim\Documents\BattleShips\BattleShips\BattleShipGameSln\BattleShipGame\bin\Debug\net9.0\BattleShipGame.deps.json
+C:\Users\Adim\Documents\BattleShips\BattleShips\BattleShipGameSln\BattleShipGame\bin\Debug\net9.0\BattleShipGame.runtimeconfig.json
+C:\Users\Adim\Documents\BattleShips\BattleShips\BattleShipGameSln\BattleShipGame\bin\Debug\net9.0\BattleShipGame.dll
+C:\Users\Adim\Documents\BattleShips\BattleShips\BattleShipGameSln\BattleShipGame\bin\Debug\net9.0\BattleShipGame.pdb
+C:\Users\Adim\Documents\BattleShips\BattleShips\BattleShipGameSln\BattleShipGame\obj\Debug\net9.0\BattleShipGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adim\Documents\BattleShips\BattleShips\BattleShipGameSln\BattleShipGame\obj\Debug\net9.0\BattleShipGame.AssemblyInfoInputs.cache
+C:\Users\Adim\Documents\BattleShips\BattleShips\BattleShipGameSln\BattleShipGame\obj\Debug\net9.0\BattleShipGame.AssemblyInfo.cs
+C:\Users\Adim\Documents\BattleShips\BattleShips\BattleShipGameSln\BattleShipGame\obj\Debug\net9.0\BattleShipGame.csproj.CoreCompileInputs.cache
+C:\Users\Adim\Documents\BattleShips\BattleShips\BattleShipGameSln\BattleShipGame\obj\Debug\net9.0\BattleShipGame.sourcelink.json
+C:\Users\Adim\Documents\BattleShips\BattleShips\BattleShipGameSln\BattleShipGame\obj\Debug\net9.0\BattleShipGame.dll
+C:\Users\Adim\Documents\BattleShips\BattleShips\BattleShipGameSln\BattleShipGame\obj\Debug\net9.0\refint\BattleShipGame.dll
+C:\Users\Adim\Documents\BattleShips\BattleShips\BattleShipGameSln\BattleShipGame\obj\Debug\net9.0\BattleShipGame.pdb
+C:\Users\Adim\Documents\BattleShips\BattleShips\BattleShipGameSln\BattleShipGame\obj\Debug\net9.0\BattleShipGame.genruntimeconfig.cache
+C:\Users\Adim\Documents\BattleShips\BattleShips\BattleShipGameSln\BattleShipGame\obj\Debug\net9.0\ref\BattleShipGame.dll

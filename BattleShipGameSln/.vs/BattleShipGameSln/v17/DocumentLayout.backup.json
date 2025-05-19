@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Adim\\Documents\\BattleShips\\BattleShips\\BattleShipGameSln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E3AC30-739C-4B4D-852E-6BEF72B2C1A6}|BattleShipGame\\BattleShipGame.csproj|c:\\users\\adim\\documents\\battleships\\battleships\\battleshipgamesln\\battleshipgame\\boardrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E3AC30-739C-4B4D-852E-6BEF72B2C1A6}|BattleShipGame\\BattleShipGame.csproj|solutionrelative:battleshipgame\\boardrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E3AC30-739C-4B4D-852E-6BEF72B2C1A6}|BattleShipGame\\BattleShipGame.csproj|c:\\users\\adim\\documents\\battleships\\battleships\\battleshipgamesln\\battleshipgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E3AC30-739C-4B4D-852E-6BEF72B2C1A6}|BattleShipGame\\BattleShipGame.csproj|solutionrelative:battleshipgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BoardRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\Adim\\Documents\\BattleShips\\BattleShips\\BattleShipGameSln\\BattleShipGame\\BoardRenderer.cs",
+              "RelativeDocumentMoniker": "BattleShipGame\\BoardRenderer.cs",
+              "ToolTip": "C:\\Users\\Adim\\Documents\\BattleShips\\BattleShips\\BattleShipGameSln\\BattleShipGame\\BoardRenderer.cs",
+              "RelativeToolTip": "BattleShipGame\\BoardRenderer.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAqwD4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:44:55.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Adim\\Documents\\BattleShips\\BattleShips\\BattleShipGameSln\\BattleShipGame\\Program.cs",
+              "RelativeDocumentMoniker": "BattleShipGame\\Program.cs",
+              "ToolTip": "C:\\Users\\Adim\\Documents\\BattleShips\\BattleShips\\BattleShipGameSln\\BattleShipGame\\Program.cs",
+              "RelativeToolTip": "BattleShipGame\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:42:53.941Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
