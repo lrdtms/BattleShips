@@ -183,6 +183,119 @@ namespace BattleShipGame
 
             Console.ResetColor();
         }
+        public char[,] GetVisibleBoard()
+        {
+            char[,] visible = new char[BoardSize, BoardSize];
+
+            for (int row = 0; row < BoardSize; row++)
+            {
+                for (int col = 0; col < BoardSize; col++)
+                {
+                    if (board[row, col] == 'H')
+                        visible[row, col] = 'H';
+                    else if (board[row, col] == 'M')
+                        visible[row, col] = 'M';
+                    else
+                        visible[row, col] = '~';
+                }
+            }
+            return visible;
+        }
+        public bool AllBoatsSunk()
+        {
+            for (int row = 0; row < 10; row++)
+            {
+                for (int col = 0; col < 10; col++)
+                {
+                    if (board[row, col] == 'S') // if any boat is not hit
+                        return false;
+                }
+            }
+            return true;
+        }
+    }
+    public class Computer
+    {
+        private const int BoardSize = 10;
+        private char[,] board = new char[BoardSize, BoardSize];
+        private int boatsToPlace = 3;
+
+        private Random random = new Random();
+
+        public Computer()
+        {
+            // Fill board with water (~)
+            for (int row = 0; row < BoardSize; row++)
+                for (int col = 0; col < BoardSize; col++)
+                    board[row, col] = '~';
+        }
+
+        public void PlaceBoats()
+        {
+            int placed = 0;
+
+            while (placed < boatsToPlace)
+            {
+                int row = random.Next(BoardSize); // random number between 0 and 9
+                int col = random.Next(BoardSize);
+
+                if (board[row, col] != 'S')
+                {
+                    board[row, col] = 'S';
+                    placed++;
+                }
+            }
+        }
+
+        public bool ReceiveGuess(int row, int col)
+        {
+            if (row < 0 || row >= BoardSize || col < 0 || col >= BoardSize)
+                return false;
+
+            if (board[row, col] == 'S')
+            {
+                board[row, col] = 'H'; // hit
+                return true;
+            }
+            else if (board[row, col] == '~')
+            {
+                board[row, col] = 'M'; // miss
+            }
+
+            return false;
+        }
+
+        public char[,] GetVisibleBoard()
+        {
+            char[,] visible = new char[BoardSize, BoardSize];
+
+            for (int row = 0; row < BoardSize; row++)
+            {
+                for (int col = 0; col < BoardSize; col++)
+                {
+                    if (board[row, col] == 'H')
+                        visible[row, col] = 'H';
+                    else if (board[row, col] == 'M')
+                        visible[row, col] = 'M';
+                    else
+                        visible[row, col] = '~'; // hide ships
+                }
+            }
+
+            return visible;
+        }
+        public bool AllBoatsSunk()
+        {
+            for (int row = 0; row < 10; row++)
+            {
+                for (int col = 0; col < 10; col++)
+                {
+                    if (board[row, col] == 'S') // if any boat is not hit
+                        return false;
+                }
+            }
+            return true;
+        }
     }
 }
 
